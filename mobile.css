@@ -1,0 +1,97 @@
+/* Adjust the background container */
+.background-container {
+    padding-bottom: 175%; /* Cover the whole viewport height */
+    background-size: auto 101%; /* Auto width, cover full height */
+    background-position: top center; /* Position the image at the top center */
+    overflow: hidden; /* Hide overflowing image outside of the viewport */
+}
+
+/* Center the logo and move it slightly higher */
+.logo-container {
+    top: 25%; /* Adjust the vertical position as needed */
+    max-width: 100%; /* Make the logo a bit larger for mobile view */
+}
+
+.logo {
+    max-width: 150%; /* Increase the max-width to 150% */
+    width: auto; /* Ensure the width adjusts proportionally to the height */
+    transform: translate(-15%, -10%); /* Center the logo both horizontally and vertically */
+}
+
+
+/* Style the header text */
+.header-text {
+    font-family: 'Inter', sans-serif; /* Change to your desired mobile font */
+    position: absolute;
+    top: 45%; /* Adjust as needed */
+    left: 0%;
+    width: 100;
+    text-align: left;
+    color: #fafafa; /* Set your desired text color */
+    font-size: 4.2vw;
+}
+
+.row {
+    flex-direction: column; /* Stack the columns vertically */
+   
+}
+
+.column {
+    text-align: left; /* Center-align the content in columns */
+    padding-left: 5%; /* Remove left padding */
+    padding-bottom: 6%;
+}
+
+.column p {
+    margin: 5px 0; /* Add spacing between day and time pairs */
+}
+
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vw;
+    background-color: #fafafa;
+    padding-left: 0px;
+    padding-right: 20%;
+}
+
+/*Styles the column in the section*/
+.section .column {
+    flex: 1;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    margin: 0 0px;
+}
+
+/*Styles the text in the column*/
+.section .column h2 {
+    font-family: 'Bodoni', serif; /* Set the font family to Bodoni */
+    font-size: 2vw; /* Set your desired font size*/
+    font-weight: normal; /* Set the font weight to normal (not bold) */
+    margin-bottom: 1.7vw;
+   
+}
+
+.section .column img {
+    max-width: 125%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    max-height: auto; /* Adjust as needed to control image height */
+    width: auto;
+    position: absolute;
+    top: 0;
+}
+
+.section .column {
+    display: block; /* Change columns to block elements for mobile */
+    margin-bottom: 20px; /* Add spacing between text and image sections */
+}
+
+.section .column img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain image aspect ratio */
+}

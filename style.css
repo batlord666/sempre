@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background image to cover the viewport */
+.background-container {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    height: 0;
+    padding-bottom: 56.25%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/img1.jpg');
+    background-size: 101% auto;
+    background-position: center;
+    overflow: hidden;
+}
+
+.logo-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 30%;
+
+}
+
+/* Center the logo */
+.logo {
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+/* Style the header text */
+.header-text {
+    position: absolute;
+    top: 6%; /* Adjust as needed */
+    left: 5%;
+    width: 112%;
+    text-align: left;
+    color: #fafafa; /* Set your desired text color */
+    font-size: 1.3vw;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    padding-left: 0%;
+    text-align: left;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0 auto; /* Centers the site horizontally */
+    background-color: #fafafa;
+    font-family: 'Bodoni', serif; /* Set the font family to Bodoni */
+    
+
+}
+
+/*Styles the section*/
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+    background-color: #fafafa;
+    /*box-sizing: border-box; /*includes padding in section's total width/height */
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+/*Styles the column in the section*/
+.section .column {
+    flex: 1;
+    text-align: left;
+    padding: 0px;
+    position: relative;
+    margin: 0 0px;
+}
+
+/*Styles the text in the column*/
+.section .column h2 {
+    font-family: 'Bodoni', serif; /* Set the font family to Bodoni */
+    font-size: 2vw; /* Set your desired font size*/
+    font-weight: normal; /* Set the font weight to normal (not bold) */
+    margin-bottom: 1.7vw;
+   
+}
+
+.section .column small {
+    font-family: 'Inter'; /* Set the font family to Inter*/
+    font-size: 1.1vw; /* Set your desired font size*/
+
+}
+
+.section-text {
+    max-width: 65%;
+    line-height: 1.4vw;
+
+    
+}
+
+/* Styles the images in the column */
+.section .column img {
+    max-width: 125%;
+    height: auto;
+    display: block;
+    margin: 0px;
+    max-height: auto; /* Adjust as needed to control image height */
+    width: auto;
+    position: absolute;
+    left: -20%;
+    top: 0;
+    transform: translateY(-51%);
+}
+
+.footer {
+    background-color: #000; /* Set the background color for the footer */
+    color: #fafafa; /* Set text color for footer text */
+    text-align: center;
+    padding: 20px 0; /* Add vertical padding to the footer */
+    margin-top: 15vw;
+
+}
+
+.footer-container {
+    margin-top: 1.5vw;
+    display: flex;
+    flex-wrap: wrap; /* Allow columns to wrap to the next line on small screens */
+    justify-content: center;
+
+}
+
+.footer-column {
+    flex: 1;
+    font-size: 2vw;
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #fafafa; /* Set link color */
+    text-decoration: none;
+}
+
+.footer-logo {
+    margin: 100px; /* Add space between columns and the logo */
+}
+
+.footer-logo img {
+    max-width: 18vw; /* Set the maximum width for the logo */
+    height: auto;
+}
+
+
+
+    
+}
